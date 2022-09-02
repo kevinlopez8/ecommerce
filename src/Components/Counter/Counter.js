@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Counter.css"
 
-const Counter = ({numero}) => {
+const Counter = ({stock}) => {
     const [contador, setContador] = useState(0);
     const suma = () => { 
         setContador(contador + 1)
@@ -9,16 +9,13 @@ const Counter = ({numero}) => {
     const resta = () => {
         setContador(contador - 1)
     }
-    if (numero === 0){
-
-    }
     return(
         <div className="counter-container">
         <div>Contador</div>
         <div className="buttons-contianer">
-            <button onClick={resta} >-</button>
+            <button disabled={contador <= 0} onClick={resta} >-</button>
             <h2>{contador}</h2>
-            <button onClick={suma} >+</button>
+            <button disabled={contador >= stock} onClick={suma} >+</button>
         </div>
         </div>
     )

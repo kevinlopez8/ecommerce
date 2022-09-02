@@ -4,7 +4,7 @@ import Counter from '../Counter/Counter'
 const ItemListContainer = () => {
   return (
     <>
-    <Counter />
+    <Counter stock={5} />
     </>
   )
 }
