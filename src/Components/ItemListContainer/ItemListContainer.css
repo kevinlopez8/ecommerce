@@ -1,0 +1,10 @@
+.titulo{
+    text-align: center;
+    color: #C73C3C;
+    font-size: 1.5rem;
+}
+
+.cargando{
+    margin-top: 10rem;
+    text-align: center;
+}

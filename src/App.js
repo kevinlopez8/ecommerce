@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <NavBar/>
       <header className="App-header">
-        <ItemListContainer />
       </header>
+      <ItemListContainer />
     </div>
   );
 }
