@@ -11,12 +11,13 @@ const Counter = ({numero ,stock}) => {
     }
     return(
         <div className="counter-container">
-        <div>Contador</div>
+        <div>Cantidad</div>
         <div className="buttons-contianer">
             <button disabled={contador <= numero} onClick={resta} >-</button>
             <h2>{contador}</h2>
             <button disabled={contador >= stock} onClick={suma} >+</button>
         </div>
+        <button className="button-agregar">Agregar</button>
         </div>
     )
 }

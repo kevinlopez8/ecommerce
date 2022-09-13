@@ -1,0 +1,10 @@
+.list-style{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #243746;
+    color: #ffffff;
+    width: 90%;
+    height: auto;
+}
