@@ -1,5 +1,6 @@
 import Counter from '../Counter/Counter'
 import './Item.css'
+import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer'
 
 const Item = ({prod}) => {
   return (
@@ -10,7 +11,7 @@ const Item = ({prod}) => {
         <p className='descProd'>{prod.descritption}</p>
         <p className='precioProd'>${prod.precio}</p>
         <Counter numero={0} stock={prod.stock} />
-        <p className='detalle'>Ver Detalle</p>
+        <p className='detalle' onClick={ItemDetailContainer}>Ver Detalle</p>
       </div>
     </div>
   )
