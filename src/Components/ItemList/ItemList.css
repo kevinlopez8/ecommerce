@@ -1,9 +1,12 @@
+*{
+    user-select: none;
+}
+
 .list-style{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #cccccc;
     color: #ffffff;
     width: 90%;
     height: auto;

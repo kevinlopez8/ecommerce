@@ -33,7 +33,7 @@ const getFetch = new Promise((respuesta, reject)=>{
 
         setTimeout(()=>{
             respuesta(productos);
-        }, 2000);
+        }, 3000);
     }else{
         reject('400 not found')
     }

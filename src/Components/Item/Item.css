@@ -16,6 +16,7 @@
 }
 .imgProd{
     width: 100%;
+    pointer-events: none;
 }
 .nombreProd{
     font-size: 20px;
