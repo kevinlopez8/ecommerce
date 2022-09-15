@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import getFetch from '../Mock/Mock'
 import { useParams } from "react-router-dom"
+import '../ItemDetailContainer/ItemDetailContainer.css'
 
 const ItemDetailContainer = () => {
 
@@ -9,6 +10,7 @@ const ItemDetailContainer = () => {
   const [producto, setProducto] = useState({})
   const [loading, setLoading] = useState(true)
   const {detalleId} = useParams()
+
 
   useEffect(()=>{
     getFetch

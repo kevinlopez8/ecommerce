@@ -23,7 +23,9 @@ useEffect(()=>{
       {
         loading
         ?
-        <h1 className='cargando'>CARGANDO...</h1>
+        <div className='contenedor-carga'>
+          <div className='cargando'></div>
+        </div>
         :
         <div className='item-list-container'>
           <h1 className='titulo'>CATALOGO DE PRODUCTOS</h1>
