@@ -11,8 +11,7 @@ const Item = ({prod}) => {
         </div>
         <div className='card-detalle'>
         <h2 className='nombreProd'>{prod.nombre}</h2>
-        <p className='precioProd'>${prod.precio}</p>
-        <Counter numero={0} stock={prod.stock} />
+        <p className='precioProd'>${prod.precio}</p> 
         <p className='detalle' onClick={ItemDetailContainer}>Ver Detalle</p>
         </div>
       </div>
@@ -21,3 +20,5 @@ const Item = ({prod}) => {
 }
 
 export default Item
+
+//<Counter numero={0} stock={prod.stock} /> <--------------RECORDAR PONER ESTO EN EL DETAIL CONTAINER--------------------------------------------|

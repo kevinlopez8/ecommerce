@@ -3,11 +3,7 @@
 }
 
 .list-style{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    color: #ffffff;
-    width: 90%;
-    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
 }
