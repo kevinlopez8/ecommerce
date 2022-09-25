@@ -1,6 +1,6 @@
 import Counter from '../Counter/Counter'
 import './Item.css'
-import ItemDetailContainer from '../ItemDetailContainer/ItemDetailContainer'
+import { Link } from 'react-router-dom'
 
 const Item = ({prod}) => {
   return (
@@ -12,7 +12,9 @@ const Item = ({prod}) => {
         <div className='card-detalle'>
         <h2 className='nombreProd'>{prod.nombre}</h2>
         <p className='precioProd'>${prod.precio}</p> 
-        <p className='detalle' onClick={ItemDetailContainer}>Ver Detalle</p>
+        <Link to={`/prod/${prod.id}`}>
+          <button className='ver-mas'>Ver Mas</button>
+        </Link>
         </div>
       </div>
     </div>

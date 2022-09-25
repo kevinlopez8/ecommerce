@@ -8,7 +8,7 @@ import ryzen5 from '../../Images/MockImg/ryzen5.jpg'
 import ryzen3 from '../../Images/MockImg/ryzen3.jpg'
 
 
-const productos = [
+export const productos = [
     {id:'0', nombre:'Procesador intel Core I9' , img: intelI9 , detalle:"" , precio:"156,240.00" , stock:30},
     {id:'1', nombre:'Procesador intel Core I7 ' , img: intelI7 , detalle:"" , precio:"99,289.00" , stock:20},
     {id:'2', nombre:'Procesador intel Core I5' , img: intelI5 , detalle:"" , precio:"69,899.00" , stock:6},

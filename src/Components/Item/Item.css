@@ -46,3 +46,15 @@
 .detalle{
     cursor: pointer;
 }
+.ver-mas{
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+    transition: all .2s;
+}
+.ver-mas:hover{
+    font-size: 20px;
+    padding: 6px 0px 6px 0px;
+}
